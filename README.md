@@ -36,18 +36,18 @@ We're using **MongoDB Atlas** (cloud).
 5. Create a database user and get your **MongoDB URI**.
 
 ## ⚙️ Installation & Run
-# Clone
+1: Clone the repository
 git clone <repo-url>
 cd ecommerce_api
 
-# Install packages
+2: Install packages
 pip install -r requirements.txt
 
-# Set MongoDB URI in .env
+3: Set MongoDB URI in .env
 touch .env
-# Add: MONGO_URI=your-connection-uri
+Add: MONGO_URI=your-connection-uri
 
-# Run server
+4: Run server
 uvicorn app.main:app --reload
 
 ##API Routes
