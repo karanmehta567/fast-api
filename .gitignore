@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.env.*
+.env
+
+# Environment
+env/
+venv/
+
+# FastAPI specific (if any build steps added later)
+*.log
+*.db
+*.sqlite3
+
+# VSCode and IDE
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
